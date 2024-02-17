@@ -311,10 +311,13 @@ vim.o.completeopt = 'menuone,noselect'
 vim.o.termguicolors = true
 
 -- Tabs and Spaces
-vim.o.shiftwidth = 4
-vim.o.tabwidth = 4
-vim.o.softtabstop = true
 vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.softtabstop = true
+vim.o.relativenumber = true
+
+-- Effects
+vim.o.cursorline = true
 
 -- [[ Basic Keymaps ]]
 
